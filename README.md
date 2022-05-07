@@ -10,10 +10,11 @@ PS. I could not run with simulator for Xcode 12, probably because I have both Xc
 
 ## To run unit tests
 
-1. Select Unit tests tab
+1. Select Unit Tests tab
 2. Press Run button next to "SpaceLaunchNowTests"
 
 ## Notes
 
 - MVVM (with Combine) is used. Code is longer than MVC but better decoupling between UI and UI states.
-- Dependency injection for unit tests is implemented using protocols.
+- Dependency injection for unit tests is implemented using protocols and mock objects
+- Dynamic text size and dark mode are supported
